@@ -35,9 +35,9 @@ _Main Function_
 **Parameters:**    
 _Arguments default to Chakla_  
 1. filePath  
-    >> Path of the file for running the function on.  
-    >> File Format should be **csv**.  
-    >> Should contain data on: PitchAngle, ActivePower, TurbineState.  
+    * Path of the file for running the function on.  
+    * File Format should be **csv**.  
+    * Should contain data on: PitchAngle, ActivePower, TurbineState.  
 2. xMinFilter  
     * Essentially cropping the data.  
     * The x-offset min value, ie. The valid least PitchAngle value to crop from.  
